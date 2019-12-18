@@ -6,6 +6,8 @@ public class ExtendGcd {
         ExtendGcd extendGcd = new ExtendGcd();
         Result result = extendGcd.getXY(3, 4);
         System.out.println(result);
+
+        System.out.println(extendGcd.gcd(3, 4));
     }
 
     public static class Result {
